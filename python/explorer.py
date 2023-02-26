@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 import maxminddb
-import sys
+import json
 
-reader = maxminddb.open_database('./GeoLite2-City.mmdb')
+
+input_db = input("Enter path of mmdb: ")
+
+reader = maxminddb.open_database(input_db)
 
 #result = reader.get('57.135.152.12')
 #result = reader.get(sys.argv[1])
