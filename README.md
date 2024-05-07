@@ -1,8 +1,3 @@
-# maxminddb
-
-# Editor.md
-Open source online Markdown editor.
-
 ## maxminddb
 ​
 ### Usage
